@@ -100,6 +100,11 @@ If data memory needs to be accessed, it is done in this stage. During this stage
 During this stage, both single cycle and two cycle instructions write their results into the register file. Note that two different stages are accessing the register file at the same time -- the decode stage is reading two source registers, at the same time that the writeback stage is writing a previous instruction's destination register. On real silicon, this can be a hazard (see below for more on hazards). That is because one of the source registers being read in decode might be the same as the destination register being written in writeback. When that happens, then the same memory cells in the register file are being both read and written the same time. On silicon, many implementations of memory cells will not operate correctly when read and written at the same time.
 
 
-## Waveforms
+## Waveform : 
 
-Simulations are attached below :
+![](Images/5%20stage%20Waveform.jpg) 
+
+
+#### Note : 
+This design is not capable of handling any type of hazards.
+Suggestions and contributions will be accepted and appreciated.
