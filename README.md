@@ -79,7 +79,7 @@ J Type instruction which stands for jump type instruction is used to jump to a p
 
 Below shows the architecture of the design : 
 
-![](Pipelined.jpg) 
+![](Images/Pipelined.jpg) 
 
 
 ## The five stage pipeline
