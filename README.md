@@ -107,4 +107,5 @@ During this stage, both single cycle and two cycle instructions write their resu
 
 #### Note : 
 This design is not capable of handling any type of hazards.
+
 Suggestions and contributions will be accepted and appreciated.
