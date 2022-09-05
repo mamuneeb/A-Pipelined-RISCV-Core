@@ -109,3 +109,12 @@ During this stage, both single cycle and two cycle instructions write their resu
 This design is not capable of handling any type of hazards.
 
 Suggestions and contributions will be accepted and appreciated.
+
+## Guided By : 
+
+### [Dr. T. V. Kalyan](https://sites.google.com/view/kalyantv)
+Assistant Professor
+
+Dept. of Computer Science and Engineering
+
+Indian Institute of Technology Ropar.
